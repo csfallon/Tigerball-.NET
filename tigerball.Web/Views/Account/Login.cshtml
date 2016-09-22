@@ -15,7 +15,7 @@
             <div class="well bs-component">
                 <form id="LoginForm" class="form-horizontal" action="@(Url.Action("Login", "Account"))?returnUrl=@(Model.ReturnUrl)" method="POST">
                     <fieldset>
-                        <legend>@L("LogIn")</legend>
+                        <legend>Login</legend>
 
                         @if (Model.IsMultiTenancyEnabled)
                         {
