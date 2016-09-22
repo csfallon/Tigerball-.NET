@@ -1,0 +1,560 @@
+DEBUG 2016-09-21 18:11:17,278 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-09-21 18:11:17,311 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2016-09-21 18:11:17,324 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: tigerball.Web.tigerballWebModule, tigerball.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:11:17,329 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: tigerball.tigerballDataModule, tigerball.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:11:17,330 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:11:17,330 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:11:17,330 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.12.0.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:11:17,331 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:11:17,332 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: tigerball.tigerballCoreModule, tigerball.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:11:17,332 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: tigerball.tigerballApplicationModule, tigerball.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:11:17,333 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:11:17,334 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: tigerball.Api.tigerballWebApiModule, tigerball.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:11:17,334 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:11:17,335 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:11:17,336 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:11:17,336 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:11:17,336 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:11:17,348 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2016-09-21 18:11:17,666 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-09-21 18:11:17,666 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-09-21 18:11:17,666 [1    ] o.Configuration.LanguageManagementConfig - Converted tigerball (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-09-21 18:11:17,666 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-09-21 18:11:18,525 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: tigerball.EntityFramework.tigerballDbContext, tigerball.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:11:22,476 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-09-21 18:11:22,526 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-09-21 18:11:22,529 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-09-21 18:11:22,532 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: tigerball
+DEBUG 2016-09-21 18:11:22,534 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-09-21 18:11:22,859 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-09-21 18:11:23,444 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes defines auto mapping attributes
+DEBUG 2016-09-21 18:11:23,444 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - tigerball.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-09-21 18:11:23,456 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - tigerball.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-09-21 18:11:23,457 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - tigerball.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-09-21 18:11:23,457 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - tigerball.Users.Dto.CreateUserInput
+DEBUG 2016-09-21 18:11:23,457 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - tigerball.Users.Dto.UserListDto
+DEBUG 2016-09-21 18:11:23,458 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - tigerball.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2016-09-21 18:11:23,459 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - tigerball.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-09-21 18:11:29,024 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'tigerball.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-09-21 18:11:29,030 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'tigerball.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-09-21 18:11:29,035 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'tigerball.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-09-21 18:11:29,040 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'tigerball.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2016-09-21 18:12:46,356 [5    ] Abp.BackgroundJobs.BackgroundJobManager  - Castle.MicroKernel.ComponentActivator.ComponentActivatorException: ComponentActivator: could not instantiate tigerball.EntityFramework.tigerballDbContext ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception: The system cannot find the file specified
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__36(DbConnection t, DbConnectionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass33.<UsingConnection>b__32()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   at System.Data.Entity.SqlServer.SqlProviderServices.UsingConnection(DbConnection sqlConnection, Action`1 act)
+   at System.Data.Entity.SqlServer.SqlProviderServices.UsingMasterConnection(DbConnection sqlConnection, Action`1 act)
+   at System.Data.Entity.SqlServer.SqlProviderServices.CreateDatabaseFromScript(Nullable`1 commandTimeout, DbConnection sqlConnection, String createDatabaseScript)
+   at System.Data.Entity.SqlServer.SqlProviderServices.DbCreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Entity.Core.Common.DbProviderServices.CreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Entity.Core.Objects.ObjectContext.CreateDatabase()
+   at System.Data.Entity.Migrations.Utilities.DatabaseCreator.Create(DbConnection connection)
+   at System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   at System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   at System.Data.Entity.Internal.DatabaseCreator.CreateDatabase(InternalContext internalContext, Func`3 createMigrator, ObjectContext objectContext)
+   at System.Data.Entity.Internal.InternalContext.CreateDatabase(ObjectContext objectContext, DatabaseExistenceState existenceState)
+   at System.Data.Entity.Database.Create(DatabaseExistenceState existenceState)
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.ForceOSpaceLoadingForKnownEntityTypes()
+   at System.Data.Entity.DbContext.System.Data.Entity.Infrastructure.IObjectContextAdapter.get_ObjectContext()
+   at Abp.EntityFramework.AbpDbContext.RegisterToChanges() in D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\AbpDbContext.cs:line 133
+   at Abp.Zero.EntityFramework.AbpZeroDbContext`3..ctor(String nameOrConnectionString) in D:\Halil\GitHub\module-zero\src\Abp.Zero.EntityFramework\Zero\EntityFramework\AbpZeroDbContext.cs:line 72
+   at tigerball.EntityFramework.tigerballDbContext..ctor(String nameOrConnectionString) in C:\Users\Christopher\Desktop\tigerball\tigerball.EntityFramework\EntityFramework\tigerballDbContext.cs:line 29
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.FastCreateInstance(Type implType, Object[] arguments, ConstructorCandidate constructor)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   --- End of inner exception stack trace ---
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, ConstructorCandidate constructor, Object[] arguments)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   at Castle.Windsor.WindsorContainer.Resolve(Type service, IDictionary arguments)
+   at Castle.Windsor.WindsorContainer.Resolve(Type service, Object argumentsAsAnonymousType)
+   at Abp.Dependency.IocManager.Resolve(Type type, Object argumentsAsAnonymousType) in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Dependency\IocManager.cs:line 207
+   at Abp.EntityFramework.DefaultDbContextResolver.Resolve[TDbContext](String connectionString) in D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\DefaultDbContextResolver.cs:line 30
+   at Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\Uow\EfUnitOfWork.cs:line 130
+   at Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide) in D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\Uow\UnitOfWorkExtensions.cs:line 38
+   at Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.GetDbContext(Nullable`1 multiTenancySide) in D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\Uow\UnitOfWorkDbContextProvider.cs:line 38
+   at Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context_callback()
+   at Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_2.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 53
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 45
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation) in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 35
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table() in D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 31
+   at Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table_callback()
+   at Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_2.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 53
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 45
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation) in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 35
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table()
+   at Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll_callback()
+   at Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_2.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 53
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 45
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation) in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 35
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll()
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount) in D:\Halil\GitHub\module-zero\src\Abp.Zero\BackgroundJobs\BackgroundJobStore.cs:line 31
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync_callback(Int32 maxResultCount)
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 62
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 41
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation) in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 35
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.<DoWork>b__9_0() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\BackgroundJobs\BackgroundJobManager.cs:line 67
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass7`1.<Run>b__5(Task`1 t)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\BackgroundJobs\BackgroundJobManager.cs:line 67
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e) in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Threading\BackgroundWorkers\PeriodicBackgroundWorkerBase.cs:line 48
+Castle.MicroKernel.ComponentActivator.ComponentActivatorException: ComponentActivator: could not instantiate tigerball.EntityFramework.tigerballDbContext ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception: The system cannot find the file specified
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__36(DbConnection t, DbConnectionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass33.<UsingConnection>b__32()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   at System.Data.Entity.SqlServer.SqlProviderServices.UsingConnection(DbConnection sqlConnection, Action`1 act)
+   at System.Data.Entity.SqlServer.SqlProviderServices.UsingMasterConnection(DbConnection sqlConnection, Action`1 act)
+   at System.Data.Entity.SqlServer.SqlProviderServices.CreateDatabaseFromScript(Nullable`1 commandTimeout, DbConnection sqlConnection, String createDatabaseScript)
+   at System.Data.Entity.SqlServer.SqlProviderServices.DbCreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Entity.Core.Common.DbProviderServices.CreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Entity.Core.Objects.ObjectContext.CreateDatabase()
+   at System.Data.Entity.Migrations.Utilities.DatabaseCreator.Create(DbConnection connection)
+   at System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   at System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   at System.Data.Entity.Internal.DatabaseCreator.CreateDatabase(InternalContext internalContext, Func`3 createMigrator, ObjectContext objectContext)
+   at System.Data.Entity.Internal.InternalContext.CreateDatabase(ObjectContext objectContext, DatabaseExistenceState existenceState)
+   at System.Data.Entity.Database.Create(DatabaseExistenceState existenceState)
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.ForceOSpaceLoadingForKnownEntityTypes()
+   at System.Data.Entity.DbContext.System.Data.Entity.Infrastructure.IObjectContextAdapter.get_ObjectContext()
+   at Abp.EntityFramework.AbpDbContext.RegisterToChanges() in D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\AbpDbContext.cs:line 133
+   at Abp.Zero.EntityFramework.AbpZeroDbContext`3..ctor(String nameOrConnectionString) in D:\Halil\GitHub\module-zero\src\Abp.Zero.EntityFramework\Zero\EntityFramework\AbpZeroDbContext.cs:line 72
+   at tigerball.EntityFramework.tigerballDbContext..ctor(String nameOrConnectionString) in C:\Users\Christopher\Desktop\tigerball\tigerball.EntityFramework\EntityFramework\tigerballDbContext.cs:line 29
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.FastCreateInstance(Type implType, Object[] arguments, ConstructorCandidate constructor)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   --- End of inner exception stack trace ---
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, ConstructorCandidate constructor, Object[] arguments)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   at Castle.Windsor.WindsorContainer.Resolve(Type service, IDictionary arguments)
+   at Castle.Windsor.WindsorContainer.Resolve(Type service, Object argumentsAsAnonymousType)
+   at Abp.Dependency.IocManager.Resolve(Type type, Object argumentsAsAnonymousType) in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Dependency\IocManager.cs:line 207
+   at Abp.EntityFramework.DefaultDbContextResolver.Resolve[TDbContext](String connectionString) in D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\DefaultDbContextResolver.cs:line 30
+   at Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\Uow\EfUnitOfWork.cs:line 130
+   at Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide) in D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\Uow\UnitOfWorkExtensions.cs:line 38
+   at Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.GetDbContext(Nullable`1 multiTenancySide) in D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\Uow\UnitOfWorkDbContextProvider.cs:line 38
+   at Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context_callback()
+   at Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_2.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 53
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 45
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation) in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 35
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table() in D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 31
+   at Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table_callback()
+   at Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_2.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 53
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 45
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation) in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 35
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table()
+   at Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll_callback()
+   at Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_2.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 53
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 45
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation) in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 35
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll()
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount) in D:\Halil\GitHub\module-zero\src\Abp.Zero\BackgroundJobs\BackgroundJobStore.cs:line 31
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync_callback(Int32 maxResultCount)
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 62
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 41
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation) in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 35
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.<DoWork>b__9_0() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\BackgroundJobs\BackgroundJobManager.cs:line 67
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass7`1.<Run>b__5(Task`1 t)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\BackgroundJobs\BackgroundJobManager.cs:line 67
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e) in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Threading\BackgroundWorkers\PeriodicBackgroundWorkerBase.cs:line 48
+DEBUG 2016-09-21 18:14:47,147 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-09-21 18:14:47,195 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2016-09-21 18:14:47,206 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: tigerball.Web.tigerballWebModule, tigerball.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:14:47,211 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: tigerball.tigerballDataModule, tigerball.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:14:47,212 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:14:47,212 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:14:47,212 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.12.0.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:14:47,213 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:14:47,214 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: tigerball.tigerballCoreModule, tigerball.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:14:47,214 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: tigerball.tigerballApplicationModule, tigerball.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:14:47,214 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:14:47,215 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: tigerball.Api.tigerballWebApiModule, tigerball.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:14:47,215 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:14:47,215 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:14:47,216 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:14:47,216 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:14:47,216 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:14:47,223 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2016-09-21 18:14:47,537 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-09-21 18:14:47,537 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-09-21 18:14:47,537 [1    ] o.Configuration.LanguageManagementConfig - Converted tigerball (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-09-21 18:14:47,537 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-09-21 18:14:48,381 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: tigerball.EntityFramework.tigerballDbContext, tigerball.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:14:51,356 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-09-21 18:14:51,409 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-09-21 18:14:51,414 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-09-21 18:14:51,420 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: tigerball
+DEBUG 2016-09-21 18:14:51,423 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-09-21 18:14:51,704 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-09-21 18:14:52,347 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes defines auto mapping attributes
+DEBUG 2016-09-21 18:14:52,347 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - tigerball.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-09-21 18:14:52,358 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - tigerball.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-09-21 18:14:52,359 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - tigerball.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-09-21 18:14:52,359 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - tigerball.Users.Dto.CreateUserInput
+DEBUG 2016-09-21 18:14:52,359 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - tigerball.Users.Dto.UserListDto
+DEBUG 2016-09-21 18:14:52,359 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - tigerball.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2016-09-21 18:14:52,360 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - tigerball.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-09-21 18:14:57,605 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'tigerball.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-09-21 18:14:57,607 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'tigerball.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-09-21 18:14:57,610 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'tigerball.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-09-21 18:14:57,613 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'tigerball.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-09-21 18:16:39,981 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-09-21 18:16:40,071 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2016-09-21 18:16:40,088 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: tigerball.Web.tigerballWebModule, tigerball.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:16:40,093 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: tigerball.tigerballDataModule, tigerball.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:16:40,094 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:16:40,094 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:16:40,094 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.12.0.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:16:40,095 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:16:40,096 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: tigerball.tigerballCoreModule, tigerball.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:16:40,096 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: tigerball.tigerballApplicationModule, tigerball.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:16:40,097 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:16:40,097 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: tigerball.Api.tigerballWebApiModule, tigerball.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:16:40,097 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:16:40,098 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:16:40,098 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:16:40,098 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:16:40,099 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:16:40,105 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2016-09-21 18:16:40,419 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-09-21 18:16:40,419 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-09-21 18:16:40,420 [1    ] o.Configuration.LanguageManagementConfig - Converted tigerball (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-09-21 18:16:40,420 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-09-21 18:16:41,287 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: tigerball.EntityFramework.tigerballDbContext, tigerball.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:16:44,327 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-09-21 18:16:44,345 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-09-21 18:16:44,351 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-09-21 18:16:44,357 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: tigerball
+DEBUG 2016-09-21 18:16:44,359 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-09-21 18:16:44,646 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-09-21 18:16:45,257 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes defines auto mapping attributes
+DEBUG 2016-09-21 18:16:45,257 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - tigerball.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-09-21 18:16:45,266 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - tigerball.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-09-21 18:16:45,266 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - tigerball.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-09-21 18:16:45,266 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - tigerball.Users.Dto.CreateUserInput
+DEBUG 2016-09-21 18:16:45,266 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - tigerball.Users.Dto.UserListDto
+DEBUG 2016-09-21 18:16:45,267 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - tigerball.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2016-09-21 18:16:45,267 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - tigerball.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-09-21 18:16:50,680 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'tigerball.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-09-21 18:16:50,683 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'tigerball.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-09-21 18:16:50,686 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'tigerball.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-09-21 18:16:50,688 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'tigerball.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-09-21 18:18:35,595 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-09-21 18:18:35,626 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2016-09-21 18:18:35,637 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: tigerball.Web.tigerballWebModule, tigerball.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:18:35,642 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: tigerball.tigerballDataModule, tigerball.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:18:35,643 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:18:35,643 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:18:35,643 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.12.0.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:18:35,644 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:18:35,644 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: tigerball.tigerballCoreModule, tigerball.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:18:35,645 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: tigerball.tigerballApplicationModule, tigerball.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:18:35,645 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:18:35,645 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: tigerball.Api.tigerballWebApiModule, tigerball.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:18:35,646 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:18:35,646 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:18:35,646 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:18:35,647 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:18:35,647 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:18:35,654 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2016-09-21 18:18:35,970 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-09-21 18:18:35,970 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-09-21 18:18:35,970 [1    ] o.Configuration.LanguageManagementConfig - Converted tigerball (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-09-21 18:18:35,970 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-09-21 18:18:36,861 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: tigerball.EntityFramework.tigerballDbContext, tigerball.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:18:39,840 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-09-21 18:18:39,856 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-09-21 18:18:39,860 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-09-21 18:18:39,865 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: tigerball
+DEBUG 2016-09-21 18:18:39,868 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-09-21 18:18:40,188 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-09-21 18:18:40,888 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes defines auto mapping attributes
+DEBUG 2016-09-21 18:18:40,888 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - tigerball.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-09-21 18:18:40,898 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - tigerball.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-09-21 18:18:40,898 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - tigerball.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-09-21 18:18:40,898 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - tigerball.Users.Dto.CreateUserInput
+DEBUG 2016-09-21 18:18:40,899 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - tigerball.Users.Dto.UserListDto
+DEBUG 2016-09-21 18:18:40,899 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - tigerball.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2016-09-21 18:18:40,899 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - tigerball.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-09-21 18:18:46,228 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'tigerball.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-09-21 18:18:46,233 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'tigerball.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-09-21 18:18:46,237 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'tigerball.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-09-21 18:18:46,242 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'tigerball.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2016-09-21 18:18:48,920 [6    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__18.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 34
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__21.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 85
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 52
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo) in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelperExtensions.cs:line 27
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext) in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Mvc\Web\Mvc\Authorization\AbpMvcAuthorizeFilter.cs:line 35
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__18.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 34
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__21.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 85
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 52
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo) in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelperExtensions.cs:line 27
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext) in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Mvc\Web\Mvc\Authorization\AbpMvcAuthorizeFilter.cs:line 35
+DEBUG 2016-09-21 18:22:51,438 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"45191421-8181-4ba9-b8ed-d0dc5d55c4dc","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-09-21T18:22:51.4231575-07:00","Properties":{}}
+DEBUG 2016-09-21 18:22:51,514 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 45191421-8181-4ba9-b8ed-d0dc5d55c4dc
+DEBUG 2016-09-21 18:23:38,656 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 45191421-8181-4ba9-b8ed-d0dc5d55c4dc
+DEBUG 2016-09-21 18:23:40,319 [38   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"ad5235a5-0d3f-4362-8b23-b4b2adb38aec","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-09-21T18:23:40.3183725-07:00","Properties":{}}
+DEBUG 2016-09-21 18:23:40,366 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: ad5235a5-0d3f-4362-8b23-b4b2adb38aec
+DEBUG 2016-09-21 18:23:44,898 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: ad5235a5-0d3f-4362-8b23-b4b2adb38aec
+DEBUG 2016-09-21 18:23:45,827 [36   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"3ca23a86-c027-4a56-b324-ca6701553bf4","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-09-21T18:23:45.826634-07:00","Properties":{}}
+DEBUG 2016-09-21 18:23:45,888 [38   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 3ca23a86-c027-4a56-b324-ca6701553bf4
+DEBUG 2016-09-21 18:23:49,196 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 3ca23a86-c027-4a56-b324-ca6701553bf4
+DEBUG 2016-09-21 18:23:50,196 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"7fb21790-a1e3-4339-899d-658d28d92e31","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-09-21T18:23:50.1958561-07:00","Properties":{}}
+DEBUG 2016-09-21 18:23:50,211 [35   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 7fb21790-a1e3-4339-899d-658d28d92e31
+DEBUG 2016-09-21 18:25:01,189 [26   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 7fb21790-a1e3-4339-899d-658d28d92e31
+DEBUG 2016-09-21 18:26:02,064 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"62638635-3dbd-4a57-a581-6e788351180e","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-09-21T18:26:02.0630645-07:00","Properties":{}}
+DEBUG 2016-09-21 18:26:02,083 [37   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 62638635-3dbd-4a57-a581-6e788351180e
+DEBUG 2016-09-21 18:40:08,720 [59   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 62638635-3dbd-4a57-a581-6e788351180e
+DEBUG 2016-09-21 18:40:13,182 [103  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"305bd004-549e-420d-9f3f-1ed3255c0e3c","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-09-21T18:40:13.1818772-07:00","Properties":{}}
+DEBUG 2016-09-21 18:40:13,198 [112  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 305bd004-549e-420d-9f3f-1ed3255c0e3c
+DEBUG 2016-09-21 18:58:33,787 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-09-21 18:58:33,826 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2016-09-21 18:58:33,842 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: tigerball.Web.tigerballWebModule, tigerball.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:58:33,847 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: tigerball.tigerballDataModule, tigerball.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:58:33,848 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:58:33,848 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:58:33,848 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.12.0.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:58:33,849 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:58:33,850 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: tigerball.tigerballCoreModule, tigerball.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:58:33,850 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: tigerball.tigerballApplicationModule, tigerball.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:58:33,851 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:58:33,851 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: tigerball.Api.tigerballWebApiModule, tigerball.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:58:33,851 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:58:33,852 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:58:33,852 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:58:33,853 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:58:33,853 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.12.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:58:33,863 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2016-09-21 18:58:34,277 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-09-21 18:58:34,278 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-09-21 18:58:34,278 [1    ] o.Configuration.LanguageManagementConfig - Converted tigerball (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-09-21 18:58:34,278 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-09-21 18:58:35,506 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: tigerball.EntityFramework.tigerballDbContext, tigerball.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-21 18:58:38,505 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-09-21 18:58:38,531 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-09-21 18:58:38,538 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-09-21 18:58:38,545 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: tigerball
+DEBUG 2016-09-21 18:58:38,549 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-09-21 18:58:38,808 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-09-21 18:58:39,342 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes defines auto mapping attributes
+DEBUG 2016-09-21 18:58:39,343 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - tigerball.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-09-21 18:58:39,352 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - tigerball.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-09-21 18:58:39,352 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - tigerball.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-09-21 18:58:39,353 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - tigerball.Users.Dto.CreateUserInput
+DEBUG 2016-09-21 18:58:39,353 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - tigerball.Users.Dto.UserListDto
+DEBUG 2016-09-21 18:58:39,353 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - tigerball.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2016-09-21 18:58:39,354 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - tigerball.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-09-21 18:58:44,127 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'tigerball.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-09-21 18:58:44,132 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'tigerball.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-09-21 18:58:44,135 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'tigerball.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-09-21 18:58:44,137 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'tigerball.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2016-09-21 18:58:47,314 [7    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__18.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 34
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__21.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 85
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 52
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo) in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelperExtensions.cs:line 27
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext) in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Mvc\Web\Mvc\Authorization\AbpMvcAuthorizeFilter.cs:line 35
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__18.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 34
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__21.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 85
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 52
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo) in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelperExtensions.cs:line 27
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext) in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Mvc\Web\Mvc\Authorization\AbpMvcAuthorizeFilter.cs:line 35
+DEBUG 2016-09-21 19:12:06,939 [110  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"377fc525-fbad-4d42-b5df-9d033b7b240c","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-09-21T19:12:06.9237578-07:00","Properties":{}}
+DEBUG 2016-09-21 19:12:07,018 [100  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 377fc525-fbad-4d42-b5df-9d033b7b240c
